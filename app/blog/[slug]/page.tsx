@@ -58,8 +58,8 @@ export default async function Blog({
     slug: string;
   };
 }) {
-  let post = await getPost(params.slug);
-console.log("POST SOURCE:", post.source);
+  const post = await getPost(params.slug);
+
 
   if (!post) {
     notFound();
