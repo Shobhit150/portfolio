@@ -8,9 +8,9 @@ export const DATA = {
   location: "Noida, India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "A developer who loves building scalable systems and solving complex problems.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "I'm a final-year B.Tech student from India with a deep interest in mathematics, logic, and solving challenging engineering problems. I enjoy breaking down messy, complex scenarios and architecting scalable systems that are both efficient and robust. I thrive in environments where critical thinking, system planning, and clean architecture matter.",
   avatarUrl: "/me.webp",
   skills: [
     "React",
