@@ -32,7 +32,6 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
   ) => {
     const mousex = useMotionValue(Infinity);
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const renderChildren = () => {
       return React.Children.map(children, (child: any) => {
         if (React.isValidElement(child)) {
@@ -61,7 +60,6 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
 );
 
 Dock.displayName = "Dock";
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export interface DockIconProps {
   size?: number;
   magnification?: number;
