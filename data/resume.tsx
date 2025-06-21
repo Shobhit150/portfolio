@@ -47,10 +47,10 @@ export const DATA = {
 
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
+      LeetCode: {
+        name: "LeetCode",
+        url: "https://leetcode.com/u/ShobhitVerma150/",
+        icon: Icons.leetcode,
 
         navbar: true,
       },
