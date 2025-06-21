@@ -81,7 +81,11 @@ const DockIcon = ({
 }: DockIconProps) => {
   const ref = useRef<HTMLDivElement>(null);
 
-  const distanceCalc = useTransform(mousex, (val: number) => {
+  // ✅ fallback if mousex is undefined
+  const fallbackMousex = useMotionValue(Infinity);
+  const safeMousex = mousex ?? fallbackMousex;
+
+  const distanceCalc = useTransform(safeMousex, (val: number) => {
     const bounds = ref.current?.getBoundingClientRect() ?? { x: 0, width: 0 };
     return val - bounds.x - bounds.width / 2;
   });
@@ -112,6 +116,7 @@ const DockIcon = ({
     </motion.div>
   );
 };
+
 
 DockIcon.displayName = "DockIcon";
 
