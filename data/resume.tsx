@@ -138,7 +138,6 @@ export const DATA = {
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
