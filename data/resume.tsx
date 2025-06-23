@@ -129,7 +129,7 @@ export const DATA = {
       dates: "June 2023 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UIcomponents for developers.",
+        "Designed, developed and sold animated UIcomponentsfor developers.",
       technologies: [
         "Next.js",
         "Typescript",
