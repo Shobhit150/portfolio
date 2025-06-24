@@ -24,6 +24,7 @@ export const DATA = {
     "Kubernetes",
     "Java",
     "C++",
+    "AWS"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
