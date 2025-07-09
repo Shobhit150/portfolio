@@ -52,21 +52,26 @@ export const DATA = {
         name: "LeetCode",
         url: "https://leetcode.com/u/ShobhitVerma150/",
         icon: Icons.leetcode,
-
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://www.youtube.com/@shobhit_5050",
         icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "https://mail.google.com/mail/?view=cm&to=vshobhit150@gmail.com&su=Inquiry%20from%20Portfolio&body=Hi%20Shobhit%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20wanted%20to%20reach%20out%20regarding...",
         icon: Icons.email,
-
-        navbar: false,
+        navbar: true,
+      },
+  
+      X: {
+        name: "X",
+        url: "https://x.com/Shobhit_codes",
+        icon: Icons.x,
+        navbar: true,
       },
     },
   },
@@ -79,8 +84,8 @@ export const DATA = {
       location: "Remote",
       title: "Graphics Design",
       logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "Dec 2022",
+      end: "Feb 2023",
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
@@ -90,7 +95,7 @@ export const DATA = {
       school: "Bennett University",
       href: "",
       degree: "Btech",
-      logoUrl: "/buildspace.jpg",
+      logoUrl: "/bennett.webp",
       start: "2022",
       end: "2026",
     },
@@ -98,12 +103,12 @@ export const DATA = {
   projects: [
     {
       title: "SantaClaws - Web3 Token",
-      href: "https://chatcollect.com",
+      href: "https://santaclaws-psi.vercel.app/",
       dates: "July 2023 - August 2023",
       active: true,
       description:
         // "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-        "SantaClaws is a decentralized application (DApp) built on Web3 that enables users to mint and gift tokens seamlessly during festive events. It utilizes smart contracts and NFT standards to create a unique, gamified experience. Designed with a focus on UI/UX and blockchain integration, this project showcases the power of ThirdWeb and modern frontend frameworks in Web3 product development.",
+        "SantaClaws is a web3 Dapp, creative during the Halloween festive season, main focus was custom UI/UX for the Halloween season",
         technologies: [
           "Next.js",
           "React",
@@ -124,8 +129,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video: `${process.env.R2_BUCKET_LOGIN}/santaclaws_demo_video.mp4`,
     },
     // {
     //   title: "Magic UI",
