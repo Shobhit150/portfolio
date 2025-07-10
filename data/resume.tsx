@@ -131,6 +131,38 @@ export const DATA = {
       image: "",
       video: `${process.env.R2_BUCKET_LOGIN}/santaclaws_demo_video.mp4`,
     },
+    {
+      title: "Blessings Holiday - Travel Agency Startup",
+      href: "https://santaclaws-psi.vercel.app/",
+      dates: "July 2025 - ",
+      active: true,
+      description:
+        // "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "This project was built to learn SEO and write production-ready code. I successfully managed to rank pages high in Google Search by optimizing performance, metadata, and dynamic content structure.",
+        technologies: [
+          "Next.js",
+          "React",
+          "TailwindCSS",
+          "R2 bucket",
+          "Cloudflare R2",
+          "Google Search Console",
+          "Sitemap & Robots.txt",
+        ],
+      links: [
+        {
+          type: "Website",
+          href: "https://blessings-holiday.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Shobhit150/blessingsHoliday",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: `${process.env.R2_BUCKET_LOGIN}/blessingholiday_demo.mp4`,
+    }
     // {
     //   title: "Magic UI",
     //   href: "https://magicui.design",
