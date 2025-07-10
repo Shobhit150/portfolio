@@ -11,7 +11,7 @@ export const DATA = {
     "A developer who loves building scalable systems and solving complex problems.",
   summary:
     "I'm a final-year B.Tech student from India with a deep interest in mathematics, logic, and solving challenging engineering problems. I enjoy breaking down messy, complex scenarios and architecting scalable systems that are both efficient and robust. I thrive in environments where critical thinking, system planning, and clean architecture matter.",
-  avatarUrl: "/MyPic.webp",
+  avatarUrl: "/me.webp",
   skills: [
     "React",
     "Next.js",
@@ -28,7 +28,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/", icon: NotebookIcon, label: "Blog" },
+    { href: "/", icon: NotebookIcon, label: "Resume" },
   ],
   contact: {
     email: "vshobhit150@gmail.com",
