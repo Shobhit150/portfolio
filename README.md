@@ -7,7 +7,7 @@ Live Site: [https://portfolio-one-wine-0sfkzpag0k.vercel.app/](https://portfolio
 
 ## 💻 Live view
 
-![Portfolio Screenshot](https://raw.githubusercontent.com/Shobhit150/blessingsHoliday/main/public/preview.png)
+![Portfolio Screenshot](https://raw.githubusercontent.com/Shobhit150/portfolio/refs/heads/main/public/LiveView.webp)
 
 ## 🧠 Sections
 - **Hero Introduction**
