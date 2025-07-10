@@ -79,7 +79,7 @@ export const DATA = {
   work: [
     {
       company: "Agro Tech Startup",
-      href: "https://atomic.finance",
+      href: "/",
       badges: [],
       location: "Remote",
       title: "Graphics Design",
@@ -224,16 +224,15 @@ export const DATA = {
     // },
   ],
   hackathons: [
-    // {
-    //   title: "Hack Western 5",
-    //   dates: "November 23rd - 25th, 2018",
-    //   location: "London, Ontario",
-    //   description:
-    //     "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-    //   image:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-    //   mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-    //   links: [],
-    // },
+    {
+      title: "Adobe India Hackathon",
+      dates: "July 17th - present, 2018",
+      location: "New Delhi, India",
+      description:
+        "Multiple rounds of DSA and coding in round 1.",
+      image:
+        "/adobe.webp",
+      links: [],
+    },
   ],
 } as const;
