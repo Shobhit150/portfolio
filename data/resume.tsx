@@ -132,7 +132,7 @@ export const DATA = {
       video: `${process.env.R2_BUCKET_LOGIN}/santaclaws_demo_video.mp4`,
     },
     {
-      title: "Blessings Holiday - Travel Agency Startup",
+      title: "Blessings Holiday - Travel Agency",
       href: "https://santaclaws-psi.vercel.app/",
       dates: "July 2025 - ",
       active: true,
