@@ -65,11 +65,11 @@ export default function Page() {
                 className="inline-block"
               >
                 <button className=" border flex flex-row text-[13px] text-gray-700 cursor-pointer hover:bg-gray-50 shadow-md justify-between px-2 py-1 items-center gap-3 rounded-md">
-                Download Resume
-                <IoDocumentOutline />
-              </button>
+                  Download Resume
+                  <IoDocumentOutline />
+                </button>
               </a>
-              
+
             </BlurFade>
             {DATA.work.map((work, id) => (
               <BlurFade
@@ -223,16 +223,36 @@ export default function Page() {
                   Get in Touch
                 </h2>
                 <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Want to chat? Just shoot me a dm{" "}
-                  <Link
-                    href={DATA.contact.social.LeetCode.url}
+                  Want to chat? Just shoot me an{" "}
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&to=vshobhit150@gmail.com"
                     className="text-blue-500 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    with a direct question on twitter
+                    email
+                  </a>
+                  , or send a direct question on{" "}
+                  <Link
+                    href={DATA.contact.social.X.url}
+                    className="text-blue-500 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Twitter
                   </Link>{" "}
-                  and I&apos;ll respond whenever I can. I will ignore all
-                  soliciting.
+                  or{" "}
+                  <Link
+                    href={DATA.contact.social.LinkedIn.url}
+                    className="text-blue-500 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn
+                  </Link>
+                  , and I’ll respond whenever I can. I will ignore all soliciting.
                 </p>
+
               </div>
             </BlurFade>
           </div>
