@@ -4,14 +4,14 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Shobhit Verma",
   initials: "SV",
-  url: "https://dillion.io",
+  url: "https://portfolio-one-wine-0sfkzpag0k.vercel.app/",
   location: "Noida, India",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/Migsun+Ultimo,+Plumeria+Garden+Approach+Rd,+Pocket+A,+Omicron+III,+Mathurapur,+Uttar+Pradesh+201310/@28.4628642,77.5496741,4996m/data=!3m1!1e3!4m6!3m5!1s0x390ceaa9021c00c1:0x60c047c11f0a27c3!8m2!3d28.4745296!4d77.5531761!16s%2Fg%2F11b7q8hxnc?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D",
   description:
     "A developer who loves building scalable systems and solving complex problems.",
   summary:
     "I'm a final-year B.Tech student from India with a deep interest in mathematics, logic, and solving challenging engineering problems. I enjoy breaking down messy, complex scenarios and architecting scalable systems that are both efficient and robust. I thrive in environments where critical thinking, system planning, and clean architecture matter.",
-  avatarUrl: "/me.webp",
+  avatarUrl: "/MyPic.webp",
   skills: [
     "React",
     "Next.js",
