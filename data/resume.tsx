@@ -83,11 +83,11 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Graphics Design",
-      logoUrl: "/atomic.png",
+      logoUrl: "",
       start: "Dec 2022",
       end: "Feb 2023",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Made mutiple graphics component in React and typescript. Learned how to make production ready clean code in TypeScript",
     },
   ],
   education: [
