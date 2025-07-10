@@ -24,7 +24,6 @@ Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/shobhit150/) o
 
 ### ✅ **Topics/Technologies Used**
 
---------------------------------------------------------
 | Category        | Tools/Tech Used                    |
 |-----------------|------------------------------------|
 | Frontend        | Next.js, React, TypeScript         |
@@ -35,4 +34,4 @@ Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/shobhit150/) o
 | Hosting         | Vercel                             |
 | Analytics       | Vercel Analytics                   |
 | Icons           | react-icons                        |
---------------------------------------------------------
+

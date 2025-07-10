@@ -20,7 +20,6 @@ export const DATA = {
     "Python",
     "Go",
     "Postgres",
-    "Docker",
     "Kubernetes",
     "Java",
     "C++",
