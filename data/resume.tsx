@@ -101,6 +101,40 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "URL Shortener and Analytics Platformn",
+      href: "",
+      dates: "June 2025 - July 2025",
+      active: true,
+      description:
+        // "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Main focus was scalability, by integrating kafka, cache, and microservice architecture, this project can handle any number of users if host allows. Everything is dockerized and dockers are maintained by docker compose.",
+        technologies: [
+          "Go",
+          "Redis",
+          "Kafka",
+          "Docker",
+          "Docker compose",
+          "gRPC",
+          "RestAPI",
+          "PostgresSQL",
+          "NextJS"
+        ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Shobhit150/url_shortner",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: `${process.env.R2_BUCKET_LOGIN}/url_shortner_demo.mp4`,
+    },
+    {
       title: "SantaClaws - Web3 Token",
       href: "https://santaclaws-psi.vercel.app/",
       dates: "July 2023 - August 2023",
