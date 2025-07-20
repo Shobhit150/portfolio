@@ -166,7 +166,7 @@ export const DATA = {
     },
     {
       title: "Blessings Holiday - Travel Agency",
-      href: "https://santaclaws-psi.vercel.app/",
+      href: "https://blessings-holiday.vercel.app/",
       dates: "July 2025 - ",
       active: true,
       description:
