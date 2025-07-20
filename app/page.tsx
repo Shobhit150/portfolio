@@ -58,7 +58,7 @@ export default function Page() {
           <div className="flex min-h-0 flex-col gap-y-3">
             <BlurFade className="flex flex-row justify-between items-center " delay={BLUR_FADE_DELAY * 5}>
               <h2 className="text-xl font-bold ">Work Experience</h2>
-              <a href="/Shobhit_resume.pdf"
+              <a href="/Shobhit_Verma_Resume.pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
