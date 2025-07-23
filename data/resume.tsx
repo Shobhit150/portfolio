@@ -102,7 +102,7 @@ export const DATA = {
   projects: [
     {
       title: "URL Shortener and Analytics Platformn",
-      href: "",
+      href: "https://github.com/Shobhit150/url_shortner",
       dates: "June 2025 - July 2025",
       active: true,
       description:
@@ -122,7 +122,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://github.com/Shobhit150/url_shortner",
           icon: <Icons.globe className="size-3" />,
         },
         {
